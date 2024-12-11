@@ -21,7 +21,7 @@ public class Bomb : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if(TryGetComponent(out PlayerMovement player))
+        if(other.gameObject.TryGetComponent(out PlayerMovement player))
         {
             player.Die();
         }
