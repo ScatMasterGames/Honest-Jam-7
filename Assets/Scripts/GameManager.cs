@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     bool gameOver = false;
     int score = 0;
-    
+    public int Score => score;
     public UnityEvent OnScoreChanged;
     
     public static GameManager Instance;
