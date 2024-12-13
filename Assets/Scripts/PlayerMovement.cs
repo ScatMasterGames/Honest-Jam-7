@@ -149,5 +149,6 @@ public class PlayerMovement : MonoBehaviour
     public void Die()
     {
         GameManager.Instance.Die();
+        GetComponent<DieAnim>().PlayAnimation();
     }
 }
