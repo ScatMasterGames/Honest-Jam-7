@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -91,7 +91,868 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Spirtes_01_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 859
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd18b8a444d593a4081890086cbb5d49
+      internalID: 234711785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 859
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0babdcb27158343b5f67ff24445b01
+      internalID: -100329785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_2
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 859
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337b9114cfc38684d9e717e4f8e47758
+      internalID: -91355707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_3
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 859
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddcf94a875d2a344b0c9f580985d097
+      internalID: -1278491565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_4
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 906
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1fbfa0dadd67943b08ce2c3c94fb00
+      internalID: 1527683344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_5
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 885
+        width: 80
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af094538ef95d304b89e015404772682
+      internalID: -1662583893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_6
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 825
+        width: 181
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5653c87d2092e8c4d9a42db5ff9b8e45
+      internalID: -104192915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_7
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 829
+        width: 167
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d05d8eb0a14e046a5a7035c985a3ab
+      internalID: -818402492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_8
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 831
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d850df2df24ba654fb64136883fa9d40
+      internalID: -225854459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_9
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 833
+        width: 180
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc027f987df52a47b57bda01cbda89a
+      internalID: 994792074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_10
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 623
+        width: 162
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfee3a898759c894f88ca4fe94b91be2
+      internalID: -981244314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 619
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aef41a24b09d2e4fb177f965c659c21
+      internalID: 445955411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_12
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 623
+        width: 164
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcff9039ec435f74b8c3c5a128d1036d
+      internalID: 403295666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_13
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 616
+        width: 163
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c718f6bd0bc828d4d96c0a79d407551a
+      internalID: -1105985840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_14
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 616
+        width: 164
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203572d0da5c6a2439d662dfa58b5bc1
+      internalID: -743786718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_15
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 626
+        width: 171
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be407c350a7a174ebde2a9d260b1232
+      internalID: -617581532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_16
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 637
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4118f121281c5ae409dd8c0611046ff7
+      internalID: 144872151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_17
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 640
+        width: 169
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84facddb2601744fadb213323a4b67f
+      internalID: 59512969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 398
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709062ee65ce35c4cb81979832c33e7b
+      internalID: -928552526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_19
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 396
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bd210e50d665b45ba019d9df377c5b
+      internalID: 813036624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 404
+        width: 164
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1877a4287bfa7504eaa00c290bf48601
+      internalID: 40193180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_21
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 403
+        width: 164
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a171a1aaf40ad74ea5a305ab6e61ca4
+      internalID: -574788266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_22
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 383
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f09cef22696c154886ce2e9feebce58
+      internalID: -917844369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_23
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 376
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916f31909e400524d9d5fb9c113a73f6
+      internalID: 621280700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_24
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 439
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ace66be2f9b36345b82456e02d6cae9
+      internalID: -1917938893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_25
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 443
+        width: 169
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2582cd15ef3d24a90799e63c161066
+      internalID: 1801222230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_26
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 166
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aba8ad9da4154d44a8c32babd8bfcc6
+      internalID: 1268291607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_27
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 166
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848b96dac76ddec4bacbcb1795107b76
+      internalID: 1747349626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_28
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 179
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fc9c0b3d9c8cc45a339c12373c4e4c
+      internalID: -2101995132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_29
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 282
+        width: 182
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00aaf182c491c24aa04f1eb1beac3c0
+      internalID: -167148714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_30
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 284
+        width: 191
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9ec91e9c854534c8d1a9b8b7e9a8ff
+      internalID: -1809842578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_31
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 87
+        width: 148
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a557eafc35b4648aca11c5b6f05d94
+      internalID: -1656959291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_32
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 87
+        width: 68
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391e5b171eafe764ca830e6029c17130
+      internalID: -1274446696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_33
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 88
+        width: 69
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2246fabba556e3d469daa1017323e037
+      internalID: -910114743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_34
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 183
+        width: 182
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b7b96f230d1d44db5106fb62ec23c9
+      internalID: 967697380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_35
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 186
+        width: 191
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1052c8230c47d4fa0ff38a7a656a8a
+      internalID: 1137502183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_36
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 57
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a7489b84d51494ab8d8aab9dc1dcab
+      internalID: 2139057661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_37
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 59
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e05ef1a95cad7c489bd9dec9a9aae47
+      internalID: -604440675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_38
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 60
+        width: 20
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6121f977547a7c74088249845464de6d
+      internalID: 478821590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_39
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 61
+        width: 15
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825a2692f4d9c4947b5f306746ac3a0c
+      internalID: -683955752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spirtes_01_40
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 62
+        width: 10
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea275c7e328e2cd449d2fa173411ca42
+      internalID: -625126686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -102,7 +963,48 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Spirtes_01_0: 234711785
+      Spirtes_01_1: -100329785
+      Spirtes_01_10: -981244314
+      Spirtes_01_11: 445955411
+      Spirtes_01_12: 403295666
+      Spirtes_01_13: -1105985840
+      Spirtes_01_14: -743786718
+      Spirtes_01_15: -617581532
+      Spirtes_01_16: 144872151
+      Spirtes_01_17: 59512969
+      Spirtes_01_18: -928552526
+      Spirtes_01_19: 813036624
+      Spirtes_01_2: -91355707
+      Spirtes_01_20: 40193180
+      Spirtes_01_21: -574788266
+      Spirtes_01_22: -917844369
+      Spirtes_01_23: 621280700
+      Spirtes_01_24: -1917938893
+      Spirtes_01_25: 1801222230
+      Spirtes_01_26: 1268291607
+      Spirtes_01_27: 1747349626
+      Spirtes_01_28: -2101995132
+      Spirtes_01_29: -167148714
+      Spirtes_01_3: -1278491565
+      Spirtes_01_30: -1809842578
+      Spirtes_01_31: -1656959291
+      Spirtes_01_32: -1274446696
+      Spirtes_01_33: -910114743
+      Spirtes_01_34: 967697380
+      Spirtes_01_35: 1137502183
+      Spirtes_01_36: 2139057661
+      Spirtes_01_37: -604440675
+      Spirtes_01_38: 478821590
+      Spirtes_01_39: -683955752
+      Spirtes_01_4: 1527683344
+      Spirtes_01_40: -625126686
+      Spirtes_01_5: -1662583893
+      Spirtes_01_6: -104192915
+      Spirtes_01_7: -818402492
+      Spirtes_01_8: -225854459
+      Spirtes_01_9: 994792074
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
