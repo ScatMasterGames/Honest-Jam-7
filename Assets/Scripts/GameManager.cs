@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
@@ -12,6 +10,8 @@ public class GameManager : MonoBehaviour
     public UnityEvent OnScoreChanged;
     
     public static GameManager Instance;
+    [SerializeField] GameObject gameOverText;
+    [SerializeField] GameObject winText;
 
     public bool IsGameOver => gameOver;
 
@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
     {
         gameOver = true;
         Invoke(nameof(RestartGame), 2);
+        winText.SetActive(true);
     }
     void RestartGame()
     {
@@ -47,5 +48,7 @@ public class GameManager : MonoBehaviour
     {
         gameOver = true;
         Invoke(nameof(RestartGame), 2);
+        gameOverText.SetActive(true);
+        
     }
 }
