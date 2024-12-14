@@ -44,6 +44,9 @@ TagManager:
   - name: Forground
     uniqueID: 307066779
     locked: 0
+  - name: Player
+    uniqueID: 3731516663
+    locked: 0
   - name: 'Middlegound '
     uniqueID: 3825860649
     locked: 0
