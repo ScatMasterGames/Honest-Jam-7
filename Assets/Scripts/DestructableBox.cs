@@ -12,21 +12,36 @@ public class DestructableBox : MonoBehaviour,IHitable
     [SerializeField] protected GameObject ObectToSpawn;
     [SerializeField] private Animation animation;
     [SerializeField] Vector2 knockbackForce = new Vector2(0,-50);
+    [SerializeField] GameObject activeObject;
+    [SerializeField] GameObject inactiveObject;
     
     public void DestroyBox()
     {
-        OnBoxDestroyed.Invoke();
-        foreach (var obj in obectToDestoy)
-        {
-            obj.SetActive(false);
-        }
+        if (numberOfCoins <= 0)
+            return;
+        
         if (ObectToSpawn != null)
         {
             GameObject spawnedObect =Instantiate(ObectToSpawn, transform.position, Quaternion.identity);
             StartCoroutine(MoveSpawnedObjectUp(spawnedObect));
         }
+        numberOfCoins--;
+        GameManager.Instance.AddScore(coinValue);
+        
         if(animation != null)
             animation.Play();
+
+        if (numberOfCoins <= 0)
+        {
+            OnBoxDestroyed.Invoke();
+            foreach (var obj in obectToDestoy)
+            {
+                obj.SetActive(false);
+            }
+            activeObject.SetActive(false);
+            inactiveObject.SetActive(true);
+            
+        }
         
     }
     IEnumerator MoveSpawnedObjectUp(GameObject spawnedObect)
