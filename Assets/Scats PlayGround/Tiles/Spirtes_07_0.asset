@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Spirtes_01_28
+  m_Name: Spirtes_07_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -2101995132, guid: 50f833925f6293f448b295e3de8a373c, type: 3}
-  m_Color: {r: 0.5568628, g: 0.5568628, b: 0.5568628, a: 1}
+  m_Sprite: {fileID: -410021812, guid: fb0f9a296338fbd459da02ece2d41043, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
     e01: 0

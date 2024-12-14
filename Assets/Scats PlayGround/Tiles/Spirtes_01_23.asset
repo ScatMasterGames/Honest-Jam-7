@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Spirtes_01_23
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 621280700, guid: 50f833925f6293f448b295e3de8a373c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
   m_Transform:
     e00: 1
     e01: 0

@@ -41,27 +41,27 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Forground
-    uniqueID: 307066779
+  - name: Distance 5
+    uniqueID: 1465909575
     locked: 0
-  - name: Player
-    uniqueID: 3731516663
+  - name: Distance 4
+    uniqueID: 4044685011
+    locked: 0
+  - name: Distance 3
+    uniqueID: 3355559955
+    locked: 0
+  - name: Distance 2
+    uniqueID: 3604753571
+    locked: 0
+  - name: Distance
+    uniqueID: 222326831
     locked: 0
   - name: 'Middlegound '
     uniqueID: 3825860649
     locked: 0
-  - name: Background
-    uniqueID: 222326831
+  - name: Player
+    uniqueID: 3731516663
     locked: 0
-  - name: Background 2
-    uniqueID: 3604753571
-    locked: 0
-  - name: Background 3
-    uniqueID: 3355559955
-    locked: 0
-  - name: Background 4
-    uniqueID: 4044685011
-    locked: 0
-  - name: Background 5
-    uniqueID: 1465909575
+  - name: Forground
+    uniqueID: 307066779
     locked: 0
