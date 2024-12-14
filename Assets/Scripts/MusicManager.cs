@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MusicManager : MonoBehaviour
@@ -45,8 +46,22 @@ public class MusicManager : MonoBehaviour
         }
 
         currentAudioSource1.Stop();
-        var temp = currentAudioSource;
-        currentAudioSource = audioSource2;
-        audioSource2 = temp;
+        (currentAudioSource, audioSource2) = (audioSource2, currentAudioSource);
+    }
+    
+    
+
+    public static void PopulateInstance()
+    {
+        if(Instance != null)
+            return;
+        MusicManager newMusicManager = new GameObject("MusicManager").AddComponent<MusicManager>();
+        var source1 = newMusicManager.AddComponent<AudioSource>();
+        var source2 = newMusicManager.AddComponent<AudioSource>();
+        newMusicManager.audioSource = source1;
+        newMusicManager.audioSource2 = source2;
+        newMusicManager.currentAudioSource = source1;
+        
+        newMusicManager.audioSource.clip = Instance.audioSource.clip;
     }
 }

@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     float knockbacktimer;
     float jumpTimer;
-    bool isDead = false;
+    
     float velocityXSmoothing;
     Vector2 targetVelocity;
     Rigidbody2D rb;
@@ -43,10 +43,7 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        if (isDead)
-        {
-            return;
-        }
+        
 
         float horizontalInput = Input.GetAxisRaw("Horizontal");
 
@@ -92,8 +89,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (IsTouchingDeadZone())
         {
-            isDead = true;
-            Invoke(nameof(Restart), 2f);
+            Die();
+            
         }
     }
 
@@ -135,12 +132,7 @@ public class PlayerMovement : MonoBehaviour
     {
         return Physics2D.Raycast(footTransform.position, Vector2.down, 0.1f, deadZoneLayer);
     }
-
-    void Restart()
-    {
-        SceneManager.LoadScene("StartMenu");
-    }
-
+    
     public bool IsGrounded()
     {
         return Physics2D.Raycast(footTransform.position, Vector2.down, 0.1f, groundLayer);
