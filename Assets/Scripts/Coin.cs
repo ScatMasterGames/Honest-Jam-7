@@ -20,6 +20,7 @@ public class Coin :MonoBehaviour
             GameManager.Instance.AddScore(scoreValue);
             OnCoinCollected.Invoke();
             _renderer.enabled = false;
+            GetComponent<Collider2D>().enabled = false;
             enabled = false;
             OnCoinCollected.Invoke();
         }

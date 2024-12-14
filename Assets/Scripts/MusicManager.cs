@@ -11,6 +11,8 @@ public class MusicManager : MonoBehaviour
     AudioSource currentAudioSource;
 
     public static MusicManager Instance;
+    private float currentClipLength;
+    private float changeSongTime;
 
     private void Awake()
     {
@@ -33,7 +35,17 @@ public class MusicManager : MonoBehaviour
         //Fade out current audio source and fade in the new audio clip at the same time
         audioSource2.clip = clip;
         audioSource2.Play();
+        currentClipLength = audioSource2.clip.length;
+        changeSongTime = currentClipLength + Time.time-2f;
         StartCoroutine(FadeOut(currentAudioSource));
+    }
+
+    private void Update()
+    {
+        if(Time.time > changeSongTime)
+        {
+            PlaySound(currentAudioSource.clip);
+        }
     }
 
     private IEnumerator FadeOut(AudioSource currentAudioSource1)

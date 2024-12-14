@@ -27,10 +27,12 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb;
     private float fallTimer;
     RaycastHit2D[] hits = new RaycastHit2D[10];
+    Animator animator;
 
 
     private void Awake()
     {
+        animator = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
         Physics2D.gravity = new Vector2(0, gravity);
     }
@@ -91,6 +93,27 @@ public class PlayerMovement : MonoBehaviour
         {
             Die();
             
+        }
+
+        UpdateAnimator();
+    }
+
+    private void UpdateAnimator()
+    {
+        if (!IsGrounded())
+        {
+            animator.SetBool("isFlying", true);
+            animator.SetBool("isWalking",false);
+        }
+        else if(Mathf.Abs(rb.velocity.x) > 0.05f)
+        {
+            animator.SetBool("isWalking",true);
+            animator.SetBool("isFlying", false);
+        }
+        else
+        {
+            animator.SetBool("isFlying", false);
+            animator.SetBool("isWalking", false);
         }
     }
 

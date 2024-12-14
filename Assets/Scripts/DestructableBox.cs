@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class DestructableBox : MonoBehaviour,IHitable
 {
     public UnityEvent OnBoxDestroyed;
+    public UnityEvent OnBoxHit;
     [SerializeField] private int numberOfCoins = 1;
     [SerializeField] private int coinValue = 10;
     [SerializeField] protected List<GameObject> obectToDestoy;
@@ -25,6 +26,7 @@ public class DestructableBox : MonoBehaviour,IHitable
             GameObject spawnedObect =Instantiate(ObectToSpawn, transform.position, Quaternion.identity);
             StartCoroutine(MoveSpawnedObjectUp(spawnedObect));
         }
+        OnBoxHit.Invoke();
         numberOfCoins--;
         GameManager.Instance.AddScore(coinValue);
         

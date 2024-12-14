@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     {
         if (Instance == null)
         {
+            gameOverText = GameObject.Find("Game Over Text");
+            winText = GameObject.Find("Victory Text");
             Instance = this;
         }
         else

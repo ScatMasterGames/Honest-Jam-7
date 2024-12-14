@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class BombSpawner : MonoBehaviour
 {
-    [SerializeField] GameObject bombPrefab;
+    [SerializeField] Bomb bombPrefab;
     [SerializeField] float initialDelay = 2f;
     [SerializeField] float spawnInterval = 5f;
     [SerializeField] float spawnIntervalRandomness = 0f;
@@ -12,6 +12,10 @@ public class BombSpawner : MonoBehaviour
     [SerializeField] bool randomYPosition = false;
     [SerializeField] private float minYPosition = 0;
     [SerializeField] private float maxYPosition = 0;
+
+    [Header("Destruction Position")]
+    [SerializeField] private bool GoWholeMap = true;
+    [SerializeField] Transform destructionXPosition;
 
     public UnityEvent OnBombSpawned;
     
@@ -31,7 +35,17 @@ public class BombSpawner : MonoBehaviour
         {
             spawnPosition = transform.position;
         }
-        Instantiate(bombPrefab, spawnPosition, Quaternion.identity);
+        
+        var bomb = Instantiate(bombPrefab, spawnPosition, Quaternion.identity);
+        if (GoWholeMap)
+        {
+            bomb.SetDestructionXPosition(-10);
+        }
+        else
+        {
+            bomb.SetDestructionXPosition(destructionXPosition.position.x);
+        }
+        
         OnBombSpawned.Invoke();
         
         float nextSpawnTime = spawnInterval + Random.Range(-spawnIntervalRandomness, spawnIntervalRandomness);

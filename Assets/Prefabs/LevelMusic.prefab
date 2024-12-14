@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2847622456306736492
+--- !u!1 &2059275415570062560
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,51 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5156138619419972849}
-  - component: {fileID: -3423427017827833050}
+  - component: {fileID: 6613492742196905153}
+  - component: {fileID: 5426075150273382284}
   m_Layer: 0
-  m_Name: BombSpawnerFixedPosAndIntervall
+  m_Name: LevelMusic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5156138619419972849
+--- !u!4 &6613492742196905153
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2847622456306736492}
+  m_GameObject: {fileID: 2059275415570062560}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4.752072, y: 6.549618, z: -0.07674338}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-3423427017827833050
+--- !u!114 &5426075150273382284
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2847622456306736492}
+  m_GameObject: {fileID: 2059275415570062560}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b82044f3c5277a544966463be77dd87f, type: 3}
+  m_Script: {fileID: 11500000, guid: aa259cb8aafb7a34b8e7d3fb8ed1cad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombPrefab: {fileID: 253611034, guid: 89bff5ae264c61d48aab9df8bf161c11, type: 3}
-  initialDelay: 2
-  spawnInterval: 4
-  spawnIntervalRandomness: 0
-  randomYPosition: 0
-  minYPosition: 0
-  maxYPosition: 0
-  GoWholeMap: 1
-  destructionXPosition: {fileID: 0}
-  OnBombSpawned:
-    m_PersistentCalls:
-      m_Calls: []
+  musicClip: {fileID: 8300000, guid: 626c77d2d005a4443911876b92a9f1ac, type: 3}

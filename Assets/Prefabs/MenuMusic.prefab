@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2816477194867454859
+--- !u!1 &3982247089408279809
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,51 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2816477194867454857}
-  - component: {fileID: 2816477194867454856}
+  - component: {fileID: 3982247089408279811}
+  - component: {fileID: 3982247089408279810}
   m_Layer: 0
-  m_Name: RandomYBombSpawner
+  m_Name: MenuMusic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2816477194867454857
+--- !u!4 &3982247089408279811
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2816477194867454859}
+  m_GameObject: {fileID: 3982247089408279809}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 202, y: 1.53, z: 0.02273511}
+  m_LocalPosition: {x: 11.834774, y: 0.32555622, z: -0.22523507}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2816477194867454856
+--- !u!114 &3982247089408279810
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2816477194867454859}
+  m_GameObject: {fileID: 3982247089408279809}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b82044f3c5277a544966463be77dd87f, type: 3}
+  m_Script: {fileID: 11500000, guid: aa259cb8aafb7a34b8e7d3fb8ed1cad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombPrefab: {fileID: 2682056478156045081, guid: 89bff5ae264c61d48aab9df8bf161c11, type: 3}
-  spawnInterval: 1.5
-  spawnIntervalRandomness: 0.3
-  spawnIntervalDecrease: 0.1
-  minSpawnInterval: 0.05
-  hardnessIncreaseInterval: 10
-  minYPosition: 1
-  maxYPosition: 17
-  randomYPosition: 1
-  OnBombSpawned:
-    m_PersistentCalls:
-      m_Calls: []
+  musicClip: {fileID: 8300000, guid: b294b4cddc7dee547bc91535f146e52c, type: 3}

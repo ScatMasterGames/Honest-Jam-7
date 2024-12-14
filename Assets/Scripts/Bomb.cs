@@ -7,10 +7,11 @@ public class Bomb : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] LayerMask playerLayer;
-    
+    private float xLimit;
+
     private void Update()
     {
-        if (transform.position.x < -10)
+        if (transform.position.x < xLimit)
         {
             Destroy(gameObject);
         }
@@ -29,5 +30,10 @@ public class Bomb : MonoBehaviour
         {
             player.Die();
         }
+    }
+
+    public void SetDestructionXPosition(float x)
+    {
+        xLimit = x;
     }
 }
