@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class HideOnPlayerEnter : MonoBehaviour
 {
-    [SerializeField] SpriteRenderer spriteRenderer;
+    [SerializeField] Renderer spriteRenderer;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
