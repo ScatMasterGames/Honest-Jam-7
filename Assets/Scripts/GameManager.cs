@@ -1,3 +1,5 @@
+using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
@@ -8,10 +10,10 @@ public class GameManager : MonoBehaviour
     int score = 0;
     public int Score => score;
     public UnityEvent OnScoreChanged;
-    
+
     public static GameManager Instance;
-    [SerializeField] GameObject gameOverText;
-    [SerializeField] GameObject winText;
+    [SerializeField] TMP_Text gameOverText;
+    [SerializeField] TMP_Text winText;
 
     public bool IsGameOver => gameOver;
 
@@ -19,8 +21,12 @@ public class GameManager : MonoBehaviour
     {
         if (Instance == null)
         {
-            gameOverText = GameObject.Find("Game Over Text");
-            winText = GameObject.Find("Victory Text");
+            var texts = FindObjectsByType<TMP_Text>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+
+
+            gameOverText = texts.FirstOrDefault(t => t.gameObject.name == "Game Over Text");
+            winText = texts.FirstOrDefault(t => t.gameObject.name == "Victory Text");
+
             Instance = this;
         }
         else
@@ -34,12 +40,14 @@ public class GameManager : MonoBehaviour
         score += scoreToAdd;
         OnScoreChanged.Invoke();
     }
+
     public void WinGame()
     {
         gameOver = true;
         Invoke(nameof(RestartGame), 2);
-        winText.SetActive(true);
+        winText.gameObject.SetActive(true);
     }
+
     void RestartGame()
     {
         gameOver = false;
@@ -50,7 +58,6 @@ public class GameManager : MonoBehaviour
     {
         gameOver = true;
         Invoke(nameof(RestartGame), 2);
-        gameOverText.SetActive(true);
-        
+        gameOverText.gameObject.SetActive(true);
     }
 }
