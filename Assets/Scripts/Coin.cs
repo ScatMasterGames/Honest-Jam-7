@@ -22,8 +22,8 @@ public class Coin :MonoBehaviour
             _renderer.enabled = false;
             GetComponent<Collider2D>().enabled = false;
             enabled = false;
-            OnCoinCollected.Invoke();
-            Destroy(gameObject);
+            
+            
         }
     }
 }
