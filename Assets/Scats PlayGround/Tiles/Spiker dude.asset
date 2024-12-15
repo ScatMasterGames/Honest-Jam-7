@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Spirtes_01_16
+  m_Name: Spiker dude
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 144872151, guid: 50f833925f6293f448b295e3de8a373c, type: 3}
-  m_Color: {r: 0.69411767, g: 0.69411767, b: 0.69411767, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 31c0ce9f0658e654cac34a98a221c2dd, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
     e01: 0
