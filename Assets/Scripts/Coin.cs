@@ -23,6 +23,7 @@ public class Coin :MonoBehaviour
             GetComponent<Collider2D>().enabled = false;
             enabled = false;
             OnCoinCollected.Invoke();
+            Destroy(gameObject);
         }
     }
 }

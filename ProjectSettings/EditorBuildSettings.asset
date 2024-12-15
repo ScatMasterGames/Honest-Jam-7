@@ -5,10 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StartMenu.unity
     guid: 9ff77861889052a44a72d6e5ce07740b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level1.unity
     guid: 1316c21703be5cc4f847a4e7b3ca4c41
+  - enabled: 1
+    path: Assets/Scats PlayGround/Scats_Scenes/StartMenu.unity
+    guid: 39d938a36e7d1514780925055160c3f2
+  - enabled: 1
+    path: Assets/Scats PlayGround/Scats_Scenes/Level1.unity
+    guid: dbca8234ec6267c4991c6d63cf1ebfb4
   m_configObjects: {}
