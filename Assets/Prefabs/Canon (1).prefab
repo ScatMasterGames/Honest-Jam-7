@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b82044f3c5277a544966463be77dd87f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombPrefab: {fileID: 2682056478156045081, guid: 89bff5ae264c61d48aab9df8bf161c11, type: 3}
+  bombPrefab: {fileID: 253611034, guid: 89bff5ae264c61d48aab9df8bf161c11, type: 3}
   initialDelay: 2.5
   spawnInterval: 10
   spawnIntervalRandomness: 0
