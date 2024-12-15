@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class MusicManager : MonoBehaviour
 {
@@ -9,10 +10,12 @@ public class MusicManager : MonoBehaviour
     [SerializeField] AudioSource audioSource2;
 
     AudioSource currentAudioSource;
-
+    [SerializeField] AudioMixerGroup _mixerGroup;
     public static MusicManager Instance;
     private float currentClipLength;
     private float changeSongTime;
+    [SerializeField] float volume = 0.2f;
+    private float _volume = 0.5f;
 
     private void Awake()
     {
@@ -28,6 +31,7 @@ public class MusicManager : MonoBehaviour
 
 
         currentAudioSource = audioSource;
+        _mixerGroup.audioMixer.SetFloat("Volume", _volume);
     }
 
     public void PlaySound(AudioClip clip)
@@ -50,12 +54,16 @@ public class MusicManager : MonoBehaviour
 
     private IEnumerator FadeOut(AudioSource currentAudioSource1)
     {
-        while (currentAudioSource1.volume > 0)
+        float time = 0;
+        while (time < 1)
         {
-            currentAudioSource1.volume -= Time.deltaTime;
-            audioSource2.volume += Time.deltaTime;
+            time += Time.deltaTime;
+            currentAudioSource1.volume = volume - ( time * volume);
+            audioSource2.volume = time * volume;
             yield return null;
         }
+        audioSource2.volume = volume;
+        currentAudioSource1.volume = 0;
 
         currentAudioSource1.Stop();
         (currentAudioSource, audioSource2) = (audioSource2, currentAudioSource);
@@ -75,5 +83,16 @@ public class MusicManager : MonoBehaviour
         newMusicManager.currentAudioSource = source1;
         
         newMusicManager.audioSource.clip = Instance.audioSource.clip;
+    }
+
+    public void IncreasVolume()
+    {
+        _volume += 1f;
+        _mixerGroup.audioMixer.SetFloat("Volume", _volume);
+    }
+    public void DecreaseVolume()
+    {
+        _volume -= 1f;
+        _mixerGroup.audioMixer.SetFloat("Volume", _volume);
     }
 }
